@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristel June T. Cambarijan | Portfolio</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #6a85ff, #f7a8d8);
+            color: #2f2f2f;
+        }
+
+        header {
+            padding: 60px 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 18px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+            backdrop-filter: blur(10px);
+        }
+
+        .card h2 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            color: #4a4a9e;
+        }
+
+        .card p {
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .detail-item {
+            background: #f6f7ff;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        .detail-item span {
+            font-weight: 600;
+            color: #5a5ad6;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 15px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #ff7fcf;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #ffffff;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cristel June T. Cambarijan</h1>
+        <p>Aspiring Computer Scientist | Student Developer</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About Me -->
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                I am a 19-year-old Bachelor of Science in Computer Science student at
+                Sultan Kudarat State University. I am passionate about technology,
+                problem-solving, and continuous learning. I aim to develop my skills
+                in programming, web development, and innovative computing solutions
+                while maintaining a professional and creative approach.
+            </p>
+        </section>
+
+        <!-- Personal Details -->
+        <section class="card">
+            <h2>Personal Details</h2>
+            <div class="details-grid">
+                <div class="detail-item"><span>Name:</span> Cristel June T. Cambarijan</div>
+                <div class="detail-item"><span>Age:</span> 19 years old</div>
+                <div class="detail-item"><span>Course:</span> BS Computer Science</div>
+                <div class="detail-item"><span>University:</span> Sultan Kudarat State University</div>
+                <div class="detail-item"><span>Email:</span> your-email@example.com</div>
+                <div class="detail-item"><span>Location:</span> Philippines</div>
+            </div>
+            <p style="margin-top: 10px; font-size: 0.9rem;">
+                *You may edit these details anytime.
+            </p>
+        </section>
+
+        <!-- Skills -->
+        <section class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>Basic Web Development (HTML, CSS)</li>
+                <li>Programming Fundamentals</li>
+                <li>Problem Solving and Logical Thinking</li>
+                <li>Version Control using GitHub</li>
+                <li>Academic Research and Documentation</li>
+            </ul>
+        </section>
+
+        <!-- Goals -->
+        <section class="card">
+            <h2>Career Goals</h2>
+            <p>
+                My goal is to become a skilled and reliable computer science professional
+                who contributes to meaningful projects. I aspire to expand my knowledge
+                in software development, data structures, and emerging technologies
+                while upholding professionalism, creativity, and ethical responsibility.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2025 Cristel June T. Cambarijan | Portfolio Website
+    </footer>
+
+</body>
+</html>
